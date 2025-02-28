@@ -21,3 +21,77 @@
 [2025-02-28 17:22:07,091: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-02-28 18:10:23,139: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-28 18:11:25,830: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-28 18:11:25,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-28 18:11:25,833: INFO: common: created directory at: artifacts]
+[2025-02-28 18:11:25,834: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-02-28 18:11:26,409: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-28 18:11:26,597: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-02-28 18:11:26,599: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-02-28 18:22:00,395: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-28 18:22:00,397: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-28 18:22:00,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-28 18:22:00,398: INFO: common: created directory at: artifacts]
+[2025-02-28 18:22:00,398: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-28 18:22:00,398: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-02-28 18:23:04,394: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-02-28 18:23:04,738: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-28 18:23:04,738: INFO: main: *******************]
+[2025-02-28 18:23:04,738: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-02-28 18:23:04,739: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-28 18:23:04,740: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-28 18:23:04,740: INFO: common: created directory at: artifacts]
+[2025-02-28 18:23:04,740: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "main.py", line 29, in <module>
+    prepare_base_model.main()
+  File "/Users/kartikraturi/Desktop/DL project /Kidney-Disease-Classification-MLflow-DVC/src/cnnClassifier/pipeline/stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2025-02-28 18:27:13,164: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-28 18:27:13,165: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-28 18:27:13,166: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-28 18:27:13,166: INFO: common: created directory at: artifacts]
+[2025-02-28 18:27:13,166: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-28 18:27:13,166: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-02-28 18:27:36,458: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-02-28 18:27:36,815: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-28 18:27:36,815: INFO: main: *******************]
+[2025-02-28 18:27:36,815: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-02-28 18:27:36,816: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-28 18:27:36,817: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-28 18:27:36,817: INFO: common: created directory at: artifacts]
+[2025-02-28 18:27:36,817: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "main.py", line 29, in <module>
+    prepare_base_model.main()
+  File "/Users/kartikraturi/Desktop/DL project /Kidney-Disease-Classification-MLflow-DVC/src/cnnClassifier/pipeline/stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2025-02-28 18:30:36,213: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-28 18:30:36,214: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-28 18:30:36,215: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-28 18:30:36,215: INFO: common: created directory at: artifacts]
+[2025-02-28 18:30:36,215: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-28 18:30:36,215: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-02-28 18:31:41,764: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-02-28 18:31:42,097: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-28 18:31:42,097: INFO: main: *******************]
+[2025-02-28 18:31:42,097: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-02-28 18:31:42,098: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-02-28 18:31:42,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-28 18:31:42,099: INFO: common: created directory at: artifacts]
+[2025-02-28 18:31:42,099: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-02-28 18:31:43,034: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-28 18:31:43,121: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2025-02-28 18:31:43,123: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2025-02-28 18:31:43,225: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
